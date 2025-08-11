@@ -1,0 +1,54 @@
+# Build directories
+build/
+*.o
+*.obj
+*.exe
+
+# Executable files
+muShell
+mushell
+a.out
+
+# Debug files
+*.dSYM/
+*.gdb_history
+core
+vgcore.*
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Test output
+test_output/
+*.test
+
+# Coverage files
+*.gcov
+*.gcda
+*.gcno
+
+# Memory debugging
+valgrind-out.txt
+*.memcheck
+
+# System files
+Thumbs.db
+.directory
+
+# History files
+.muShell_history
+.shell_history
+
+# Backup files
+*.bak
+*.backup
